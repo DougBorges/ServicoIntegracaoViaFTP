@@ -1,0 +1,10 @@
+
+    Para gerar uma nova versão (Release) do sistema:
+
+	1. Fechar todos os programas que estejam utilizando ou fazendo referência aos arquivos "ServicoIntegracaoViaFTP.Executor.dll" e "ServicoIntegracaoViaFTP.Service.exe"
+    2. Selecionar o projeto "Teste" como padrão (Set as StartUp Project)
+    3. Incrementar o número da versão (AssemblyVersion) dos projetos "Service" e "Executor" nos seus respectivos arquivos "Properties\AssemblyInfo.cs"
+    4. Alterar configuração de build da solution de Debug para Release
+    5. Rebuild da solução toda
+    6. Commit dos novos arquivos "ServicoIntegracaoViaFTP.Executor.dll" e "ServicoIntegracaoViaFTP.Service.exe" gerados e dos arquivos "AssemblyInfo.cs" alterados
+    7. Copiar os arquivos "ServicoIntegracaoViaFTP.Executor.dll" e "ServicoIntegracaoViaFTP.Service.exe" para gerar o instalador

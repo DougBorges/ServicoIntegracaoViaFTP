@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoIntegracaoViaFtp.Service", "ServicoIntegracaoViaFTP.Service\ServicoIntegracaoViaFtp.Service.csproj", "{06E63089-6012-440F-81CE-F704513A38F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoIntegracaoViaFtp.Teste", "ServicoIntegracaoViaFTP.Teste\ServicoIntegracaoViaFtp.Teste.csproj", "{D2F3C79D-C26B-49D2-AA79-D7BD82EADD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoIntegracaoViaFtp.Executor", "ServicoIntegracaoViaFTP.Executor\ServicoIntegracaoViaFtp.Executor.csproj", "{DC8A7F4F-BED6-408D-BF6C-2F4F9BADD086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{6EDB8C76-DF49-429C-B442-2EBA685203C0}"
+	ProjectSection(SolutionItems) = preProject
+		Release\integ_rede_creden_install.bat = Release\integ_rede_creden_install.bat
+		Release\integ_rede_creden_uninstall.bat = Release\integ_rede_creden_uninstall.bat
+		Release\LEIA-ME.txt = Release\LEIA-ME.txt
+		Release\ServicoIntegracaoViaFTP.Executor.dll = Release\ServicoIntegracaoViaFTP.Executor.dll
+		Release\ServicoIntegracaoViaFTP.Service.exe = Release\ServicoIntegracaoViaFTP.Service.exe
+		Release\ServicoIntegracaoViaFTP.Service.exe.config = Release\ServicoIntegracaoViaFTP.Service.exe.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDeDados", "BancoDeDados", "{9D454F0E-6E6B-4ACB-BFBD-4FFC548DEC7E}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDeDados\Criação Banco.sql = BancoDeDados\Criação Banco.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E63089-6012-440F-81CE-F704513A38F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E63089-6012-440F-81CE-F704513A38F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E63089-6012-440F-81CE-F704513A38F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E63089-6012-440F-81CE-F704513A38F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F3C79D-C26B-49D2-AA79-D7BD82EADD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F3C79D-C26B-49D2-AA79-D7BD82EADD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F3C79D-C26B-49D2-AA79-D7BD82EADD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F3C79D-C26B-49D2-AA79-D7BD82EADD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8A7F4F-BED6-408D-BF6C-2F4F9BADD086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8A7F4F-BED6-408D-BF6C-2F4F9BADD086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8A7F4F-BED6-408D-BF6C-2F4F9BADD086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8A7F4F-BED6-408D-BF6C-2F4F9BADD086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
