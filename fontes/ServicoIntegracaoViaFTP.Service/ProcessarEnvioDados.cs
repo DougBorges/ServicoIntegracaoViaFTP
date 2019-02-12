@@ -96,7 +96,9 @@ namespace ServicoIntegracaoViaFtp.Service {
         }
 
         public String Processar() {
-            TestarConexao();
+            if (!TestarConexao()) {
+                return null;
+            }
 
             exportarZip = ExportarZip();
 

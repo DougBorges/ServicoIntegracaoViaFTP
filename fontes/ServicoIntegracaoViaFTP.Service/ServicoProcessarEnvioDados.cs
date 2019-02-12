@@ -38,7 +38,9 @@ namespace ServicoIntegracaoViaFtp.Service {
 
                     try {
                         var arquivosEnviados = processarEnvioDados.Processar();
-                        logExecucao.WriteEntry($"O serviço gerou os seguintes arquivos: {arquivosEnviados}.", EventLogEntryType.Information);
+                        logExecucao.WriteEntry(String.IsNullOrWhiteSpace(arquivosEnviados)
+                                                   ? "O serviço não gerou nenhum arquivo." : $"O serviço gerou os seguintes arquivos: {arquivosEnviados}.",
+                                               EventLogEntryType.Information);
                     } catch (Exception excecao) {
                         RegistraLogErro(logExecucao, excecao);
                     }
